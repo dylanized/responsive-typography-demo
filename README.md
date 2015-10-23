@@ -1,5 +1,6 @@
 # Responsive Typography Demo
-Simple demo showing scalable responsive typography using rem and em units
+
+This is a a simple demo showing scalable responsive typography using rem and em units.
 
 Open index.html in your browser and adjust the window size to see the text and the margins adjust proportionally. Check out the style block in the head to see what's going on.
 
