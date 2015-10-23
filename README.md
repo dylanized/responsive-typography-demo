@@ -1,7 +1,7 @@
-# responsive-typography-demo
+# Responsive Typography Demo
 Simple demo showing scalable responsive typography using rem and em units
 
-Adjust your browser window size to see the text and the margins adjust proportionally. Check out the style block in the head to see what's going on.
+Open index.html in your browser and adjust the window size to see the text and the margins adjust proportionally. Check out the style block in the head to see what's going on.
 
 Here's how it works:
 
@@ -11,7 +11,7 @@ Here's how it works:
 - Style element with "em" units. These can cascade up or down as needed
 - To scale ALL text and margins on ALL devices, adjust the master body font-size in "em" units
 
-In this demo we're showing exaggerated proportions:
+In this demo we're showing exaggerated sizes:
 
 - xs = 100%
 - sm = 125%
@@ -19,7 +19,7 @@ In this demo we're showing exaggerated proportions:
 - lg = 175% (1rem = 28px)
 - xl = 200%
 
-More likely, you'd want to do proportions that are modest: 
+This schema is more practical: 
 
 - xs = 100%
 - sm = 107.5%
