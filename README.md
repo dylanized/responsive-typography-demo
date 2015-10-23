@@ -34,3 +34,5 @@ Under this practical "125%" schema, on large devices (desktops) a "rem" unit bre
 - .5rem = 	10px
 - .75rem = 15px
 - 1rem = 20px
+
+Questions? Feedback? find me @ http://twitter.com/dylanized
