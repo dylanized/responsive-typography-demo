@@ -5,8 +5,24 @@ Adjust your browser window size to see the text and the margins adjust proportio
 
 Here's how it works:
 
-- Use a mobile-first responsive schema, where there's a global body tag and then an override for each device size
-- For each device size, set html root as a proportional percentage value (or use the default values and breakpoints provided)
-- Set margins and paddings in "rem" units - these are consistent everywhere on your page
-- Set font sizes with "em" units - these can be cascaded down
+- For extra small devices, let html be set to font-size:100% (conveniently, this is the natural default)
+- For each tier of larger devices, set the html font-size to a slightly higher percentage
+- Style margins and paddings with "rem" units. 1 rem = the percentage you set
+- Style element with "em" units. These can cascade up or down as needed
 - To scale ALL text and margins on ALL devices, adjust the master body font-size in "em" units
+
+In this demo we're showing exaggerated proportions:
+
+- xs = 100%
+- sm = 125%
+- md = 150%
+- lg = 175% (1rem = 28px)
+- xl = 200%
+
+More likely, you'd want to do proportions that are modest: 
+
+- xs = 100%
+- sm = 107.5%
+- md = 115%
+- lg = 125% (1rem = 20px)
+- xl = 135%
