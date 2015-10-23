@@ -28,7 +28,7 @@ This schema is more practical:
 - lg = 125% (1rem = 20px)
 - xl = 135%
 
-Under this practical schema, on large devices (desktops) a "rem" unit breaks down nicely:
+Under this practical "125%" schema, on large devices (desktops) a "rem" unit breaks down nicely:
 
 - .25rem = 5px
 - .5rem = 	10px
