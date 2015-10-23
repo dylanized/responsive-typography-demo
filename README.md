@@ -2,7 +2,7 @@
 
 This is a a simple demo showing scalable responsive typography using rem and em units.
 
-Open index.html in your browser and adjust the window size to see the text and the margins adjust proportionally. Check out the style block in the head to see what's going on.
+Open index.html in your browser and adjust the window size to see the text and the margins adjust proportionally. Then view the source and check out the embedded style block to see what's going on.
 
 Here's how it works:
 
@@ -27,3 +27,10 @@ This schema is more practical:
 - md = 115%
 - lg = 125% (1rem = 20px)
 - xl = 135%
+
+Under this practical schema, on large devices (desktops) a "rem" unit breaks down nicely:
+
+- .25rem = 5px
+- .5rem = 	10px
+- .75rem = 15px
+- 1rem = 20px
